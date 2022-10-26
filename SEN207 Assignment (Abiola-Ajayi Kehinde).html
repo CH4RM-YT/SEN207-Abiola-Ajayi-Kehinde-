@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Abiola-Ajayi Kehinde</h2>
+    <h3> Sen207 Assignment</h3>
+    <p id="demo"></p>
+    <script>
+        const car = {
+            name: "Ferrari",
+            model: "488 Pista",
+            weigth: "3053 lbs",
+            color: "red"
+        };
+        car.brake = function() {
+            var brake = "The car has a brake force of 40";
+            return brake;
+        }
+        car.drive = function() {
+            var drive = "The car is driving now";
+            return drive;
+        }
+        car.stop = function() {
+            var stop = "The car has stopped";
+            return stop;
+        }
+        car.park = function() {
+            var park = "The car has been parked";
+            return park
+        }
+        document.getElementById("demo").innerHTML =
+            car.brake() + "<br/>" +
+            car.drive() + "<br/>" +
+            car.stop() + "<br/>" +
+            car.park();
+    </script>
+</body>
+
+</html>
