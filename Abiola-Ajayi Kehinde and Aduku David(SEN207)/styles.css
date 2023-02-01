@@ -1,0 +1,94 @@
+.header {
+    width: 600px;
+    height: flex;
+    margin: 20px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(26, 157, 161);
+    opacity: 1;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(1, 70, 38);
+    opacity: 0.9;
+}
+
+p {
+    font-size: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#task-input {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid rgb(29, 19, 19);
+    width: 300px;
+    margin-bottom: 16px;
+}
+
+#add-task-btn {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.task-list-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fffefe;
+    border-radius: 10px;
+    overflow-y: none;
+    max-height: 400px;
+    opacity: 0.6;
+}
+
+.task-list-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task-list-container li {
+    padding: 8px;
+    font-size: 16px;
+    border-bottom: 1px solid rgb(19, 16, 16);
+    height: 16px;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.task-list-container .delete-item {
+    color: #333;
+    cursor: pointer;
+}
+
+.error-message {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
